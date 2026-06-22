@@ -1,0 +1,9 @@
+# Lightweight (default) path — pure Python, no JVM, no Docker.
+# Total install ~80 MB, boots in seconds. Lower-bound pins keep the lab
+# reproducible without locking out students on Python 3.13/3.14 wheels.
+deltalake>=0.21,<1.0
+duckdb>=1.1,<2.0
+polars>=1.13.2,<2.0   # 1.13.1 was yanked
+pyarrow>=17,<22
+jupyterlab>=4.3,<5.0
+jupytext>=1.16,<2.0
